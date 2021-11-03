@@ -5,7 +5,7 @@
   --gray-light: rgba(0, 0, 0, 0.4);
   --gray-mid: rgba(0, 0, 0, 0.7);
   --gray-dark: rgba(0, 0, 0, 0.9);
-  --body-color: var(--gray-mid);
+  --body-color: #004c40;
   --headline-color: var(--gray-dark);
   --accent-color: #0066f0;
   --body-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -57,6 +57,7 @@ h4 {
   margin: 0 auto;
 }
 .sr-header {
+  text-align: center;
   margin-bottom: 32px;
 }
 .sr-header a {
@@ -354,8 +355,8 @@ pre {
 
 /* Pasha styles – Brand-overrides, can split these out */
 :root {
-  --accent-color: #ed5f74;
-  --headline-color: var(--accent-color);
+  --accent-color: #00796b;
+  --headline-color: #004c40;
 }
 
 .pasha-image-stack {
